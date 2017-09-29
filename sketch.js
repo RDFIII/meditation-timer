@@ -8,16 +8,11 @@ function draw() {
 
 	let milliseconds = millis();
 
-	// noStroke();
-	// fill(204, 102, 0);
-	// ellipse(windowWidth/2, windowHeight/2, 500, 500);
-
-
 	noStroke();
 	fill(255, 204, 300);
-	arc(windowWidth/2, windowHeight/2, 500, 500, 0, milliseconds/100, PIE);
+	ellipse(windowWidth/2, windowHeight/2, 600, 600);
 
 	noStroke();
-	fill(255, 204, 300);
-	arc(windowWidth/2, windowHeight/2, 500, 500, 0, milliseconds/100, PIE);
+	fill(255, 204, 0);
+	arc(windowWidth/2, windowHeight/2, 600, 600, 0, milliseconds/100, PIE);
 }
