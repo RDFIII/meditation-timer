@@ -16,8 +16,13 @@ function draw() {
 	fill(255, 204, 0);
 	arc(windowWidth/2, windowHeight/2, 710, 710, -90, ((milliseconds/100) - 90), PIE);
 
-	// noStroke();
-	// fill(255, 204, 30);
-	// ellipse(windowWidth/2, windowHeight/2, 200, 200);
+	noStroke();
+	fill(255, 204, 30);
+	ellipse(windowWidth/2, windowHeight/2, 150, 150);
+
+	textAlign(CENTER);
+	textSize(32);
+	fill(255, 204, 300);
+	text(Math.floor(milliseconds/1000), windowWidth/2, windowHeight/2);
 
 }
