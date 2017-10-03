@@ -1,0 +1,7 @@
+function timer30() {
+
+
+
+
+
+}

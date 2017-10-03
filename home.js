@@ -26,7 +26,7 @@ function setup() {
 
 function draw() {
 
-  timer20();
+  timer15();
 
   // noStroke();
   // fill(0, 0, 0);
