@@ -8,7 +8,7 @@ let countdown = (milliseconds/5) -90;
 // fill(255, 255, 255);
 // ellipse(windowWidth/2, windowHeight/2, 700, 700);
 
-noStroke();
+stroke(255, 179, 179);
 fill(255, 179, 179);
 ellipse(windowWidth/2, windowHeight/2, windowHeight/1.4, windowHeight/1.4);
 
